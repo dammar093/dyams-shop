@@ -1,0 +1,32 @@
+.about {
+  margin-top: 120px;
+  padding: 10px 20px;
+}
+.about-top {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.top-left {
+  width: 48%;
+  text-align: justify;
+  font-size: 16px;
+  color: #444444;
+}
+.top-right {
+  width: 48%;
+}
+
+@media screen and (max-width: 576px) {
+  .about-top {
+    justify-content: center;
+  }
+  .top-left {
+    width: 100%;
+  }
+  .top-right {
+    width: 100%;
+  }
+}

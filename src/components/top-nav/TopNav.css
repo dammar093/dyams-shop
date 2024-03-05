@@ -1,0 +1,36 @@
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f6f6f6;
+  height: 35px;
+  width: 100%;
+  padding: 10px 20px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+}
+.top-nav-left span {
+  color: #444444;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.top-nav-right {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  align-items: center;
+}
+.top-nav-right a {
+  color: #444444;
+  text-decoration: none;
+  text-transform: capitalize;
+  border-left: 1px solid grey;
+  padding: 5px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.top-nav-right :nth-child(1) {
+  border: none;
+}

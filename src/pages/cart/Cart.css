@@ -1,0 +1,148 @@
+.cart {
+  margin-top: 120px;
+  width: 100%;
+  padding: 0 20px;
+}
+.cart h3 {
+  text-transform: uppercase;
+  color: #444444;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px 0;
+}
+.cart-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+.cart-item {
+  margin: 0 10px;
+}
+.cart-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.cart-image img {
+  height: 100%;
+  width: 100%;
+}
+.cart-details {
+  line-height: 20px;
+}
+.cart-details p {
+  font-size: 16px;
+  color: #444444;
+  text-transform: capitalize;
+}
+.cart-title {
+  font-weight: 600;
+}
+.cart-price p {
+  color: #fa869b;
+  size: 16px;
+  font-weight: 600;
+  font-family: cursive;
+}
+.cart-delete {
+  font-size: 25px;
+  color: #fa869b;
+  cursor: pointer;
+}
+.grant-total {
+  padding: 20px 0;
+  width: 100%;
+}
+.grant-total h4 {
+  text-align: center;
+  color: #444444;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.grant-total h4 span {
+  color: #fa869b;
+  font-family: cursive;
+}
+.checkout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+.checkout-btn {
+  width: 150px;
+  height: 50px;
+  border: 1px solid grey;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #444444;
+  transition: all 0.5s ease-in;
+  padding: 10px 20px;
+}
+.checkout-btn:hover {
+  color: white;
+  background-color: #fa869b;
+}
+.cart-quantity {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+}
+.cart-btn-quantity {
+  width: 40px;
+  height: 40px;
+  border: 1px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.cart-btn-quantity:hover {
+  color: white;
+  background-color: #fa869b;
+}
+.cart-quantity input {
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  color: #444444;
+  border: 1px solid grey;
+}
+@media screen and (max-width: 576px) {
+  .cart {
+    padding: 0;
+  }
+  .cart-image {
+    height: 50px;
+    width: 50px;
+  }
+  .cart-container {
+    margin: 0;
+    padding: 0;
+  }
+  .cart-item {
+    margin: 0 3px;
+  }
+  .cart-details p {
+    font-size: 11px;
+    line-height: 12px;
+  }
+  .cart-price p {
+    font-size: 11px;
+  }
+
+  .cart-btn-quantity {
+    width: 25px;
+    height: 25px;
+  }
+  .cart-quantity input {
+    width: 25px;
+    height: 25px;
+  }
+}

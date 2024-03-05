@@ -1,0 +1,106 @@
+.slider {
+  width: 100%;
+  position: relative;
+  margin-top: 7%;
+}
+.image-slide {
+  display: flex;
+  overflow: hidden;
+}
+.slide {
+  width: 100vw;
+  position: relative;
+  transition: all 2s ease;
+}
+.slide img {
+  transition: all 3s ease;
+  width: 100vw;
+}
+
+.desc {
+  position: absolute;
+  top: 5vw;
+  margin-left: 5vw;
+}
+.desc h5 {
+  font-family: cursive;
+  letter-spacing: 2px;
+  font-size: 1vw;
+  text-transform: uppercase;
+  color: #333333;
+}
+.desc h2 {
+  text-transform: uppercase;
+  font-size: 3vw;
+  font-weight: 800;
+  color: #444444;
+}
+.desc h3 {
+  text-transform: uppercase;
+  font-size: 3vw;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fa869b;
+}
+.desc p {
+  font-size: 1.2vw;
+  color: #666665;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+.btn {
+  padding: 1vw 2vw;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #555555;
+  font-size: 1vw;
+  border: 1px solid gray;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+.btn:hover {
+  color: white;
+  background-color: #fa869b;
+}
+.cursor {
+  position: absolute;
+  top: 48%;
+  font-size: 3vw;
+  color: #4444;
+  cursor: pointer;
+}
+.cursor:hover {
+  color: #fa869b;
+}
+.next {
+  right: 30px;
+}
+.prev {
+  left: 30px;
+}
+@media screen and (max-width: 576px) {
+  .slider {
+    margin-top: 25%;
+  }
+  .btn {
+    font-size: 2vw;
+  }
+  .desc h5 {
+    font-size: 2vw;
+  }
+  .desc h2 {
+    font-size: 4vw;
+  }
+  .desc h3 {
+    font-size: 3vw;
+  }
+  .desc p {
+    font-size: 1.8vw;
+    width: 88%;
+    margin: 0;
+  }
+  .cursor {
+    font-size: 4vw;
+  }
+}

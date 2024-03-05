@@ -1,0 +1,47 @@
+.page-btn {
+  border: 1px solid grey;
+  color: #444444;
+  margin: 0 10px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+  width: 30px;
+  height: 30px;
+  font-weight: 400;
+}
+.page-btn:hover {
+  color: white;
+  background-color: #fa869b;
+}
+.page {
+  border: 1px solid grey;
+  width: 30px;
+  height: 30px;
+  color: #444444;
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.page:hover {
+  color: white;
+  background-color: #fa869b;
+}
+@media screen and (max-width: 576px) {
+  .page {
+    font-size: 4vw;
+  }
+  .page-btn {
+    font-size: 3vw;
+  }
+}

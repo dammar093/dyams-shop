@@ -1,0 +1,51 @@
+.banner {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 10vw;
+  height: 100%;
+  position: relative;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+}
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1vw;
+}
+.banner-text h2 {
+  color: #fa869b;
+  font-size: 2vw;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+.banner-text p {
+  font-size: 1.2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #444444;
+  text-transform: capitalize;
+}
+.banner-text a {
+  color: #fa869b;
+  font-size: 1.2vw;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 576px) {
+  .banner-text h2 {
+    font-size: 4vw;
+  }
+  .banner-text p {
+    font-size: 2vw;
+  }
+  .banner-text a {
+    font-size: 2vw;
+  }
+}

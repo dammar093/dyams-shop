@@ -1,0 +1,74 @@
+.categories {
+  padding: 0 20px;
+  margin-top: 6vw;
+  width: 100%;
+}
+.categories h2 {
+  color: #fa869b;
+  font-size: 2.5vw;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: cursive;
+  margin-top: 30px;
+}
+.categories p {
+  text-align: center;
+  color: #444444;
+  font-family: cursive;
+  font-size: 1.5vw;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.category {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.cate-products {
+  min-width: 22vw;
+  min-height: 15vw;
+  width: 150px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+}
+.cate-products img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+  filter: brightness(80%);
+  transition: all 0.5s ease;
+}
+.cate-products img:hover {
+  transform: scale(1.2);
+}
+.cate-products h5 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2vw;
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0.313);
+  text-transform: capitalize;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  padding: 10px;
+}
+.cate-products:hover h5 {
+  opacity: 1;
+}
+@media screen and (max-width: 576px) {
+  .categories h2 {
+    font-size: 4vw;
+  }
+  .categories p {
+    font-size: 2vw;
+  }
+}
