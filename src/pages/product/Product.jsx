@@ -13,8 +13,8 @@ import products from "../../data/data";
 
 const Product = () => {
   const [quantity, setQuantity] = useState(1);
-  const [color, setColor] = useState('');
-  const [size, setSize] = useState('')
+  const [color, setColor] = useState('white');
+  const [size, setSize] = useState('xl')
   const [showDesc, setShowDesc] = useState(true);
   const [showShipping, setShowShipping] = useState(false);
   const [showFAQ, setShowFAQ] = useState(false);

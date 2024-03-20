@@ -4,11 +4,9 @@
   background-color: #f2f2f2;
   padding: 20px;
 }
-input[type="text"],
-select,
-textarea {
-  width: 20%;
-  padding: 4px;
+.contact-input {
+  width: 100%;
+  padding: 8px 4px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
